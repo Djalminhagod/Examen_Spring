@@ -13,4 +13,6 @@ public class Estudiante {
     private String nombre;
     @Column(name = "creditos", nullable = false, unique = false)
     private int creditos;
+    @Column(name = "codigo", nullable = false, unique = false)
+    private String codigo;
 }
